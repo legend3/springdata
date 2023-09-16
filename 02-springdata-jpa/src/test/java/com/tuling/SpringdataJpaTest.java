@@ -24,7 +24,7 @@ public class SpringdataJpaTest {
 
     // jdk动态代理的实例
     @Autowired
-    CustomerRepository repository;
+    CustomerRepository repository;//提供了内置接口的支持(基本的crud操作：findById、save等等，持久层无须自己编写)
 
     @Test
     public  void testR(){

@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54fb7dfb-6fa8-4ddc-a977-b9c5421e16c0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-jpa-hibernate/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01-jpa-hibernate/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-jpa-hibernate/src/test/java/com/tuling/test/JpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-jpa-hibernate/src/test/java/com/tuling/test/JpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/repositories/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/repositories/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/test/java/com/tuling/SpringdataJpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/test/java/com/tuling/SpringdataJpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springdata-jpa/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-springdata-jpa/src/main/resources/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-springdata-jpa/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04-springdata-jpa/src/main/resources/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +58,8 @@
         <entry key="JPA Inspector" value="true" />
         <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -52,7 +68,9 @@
         <entry key="JPA Inspector" value="false" />
         <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -127,7 +145,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HibernateTest.testR_HQL">
+  <component name="RunManager" selected="JUnit.JpaTest.testR">
     <configuration name="HibernateTest.testD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="01-jpa-hibernate" />
       <extension name="coverage">
@@ -160,7 +178,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HibernateTest.testR_lazy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpaTest.testR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="01-jpa-hibernate" />
       <extension name="coverage">
         <pattern>
@@ -169,24 +187,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.tuling.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tuling.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testR_lazy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HibernateTest.testU" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01-jpa-hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tuling.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tuling.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tuling.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testU" />
+      <option name="MAIN_CLASS_NAME" value="com.tuling.test.JpaTest" />
+      <option name="METHOD_NAME" value="testR" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,6 +210,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringdataJpaTest.testR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-springdata-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tuling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tuling" />
+      <option name="MAIN_CLASS_NAME" value="com.tuling.SpringdataJpaTest" />
+      <option name="METHOD_NAME" value="testR" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="05-springboot-jpa" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tuling.springdata.Application" />
@@ -224,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JpaTest.testR" />
+        <item itemvalue="JUnit.SpringdataJpaTest.testR" />
         <item itemvalue="JUnit.HibernateTest.testR_HQL" />
         <item itemvalue="JUnit.OneToOneTest.testC" />
         <item itemvalue="JUnit.HibernateTest.testD" />
-        <item itemvalue="JUnit.HibernateTest.testU" />
-        <item itemvalue="JUnit.HibernateTest.testR_lazy" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +265,8 @@
       <workItem from="1637502111730" duration="172000" />
       <workItem from="1637502336124" duration="328000" />
       <workItem from="1694805211793" duration="1459000" />
-      <workItem from="1694807496608" duration="1864000" />
+      <workItem from="1694807496608" duration="2497000" />
+      <workItem from="1694847218314" duration="11764000" />
     </task>
     <task id="LOCAL-00001" summary="2023./9/16">
       <created>1694808483612</created>

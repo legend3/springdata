@@ -21,7 +21,7 @@ public class JpaTest {
 
     @Before
     public void before(){
-         factory= Persistence.createEntityManagerFactory("hibernateJPA");
+         factory = Persistence.createEntityManagerFactory("hibernateJPA");
     }
 
     @Test

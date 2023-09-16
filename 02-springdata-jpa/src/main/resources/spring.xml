@@ -7,7 +7,7 @@
     http://www.springframework.org/schema/data/jpa
     https://www.springframework.org/schema/data/jpa/spring-jpa.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-    <!--用于整合jpa  @EnableJpaRepositories -->
+    <!--用于整合jpa  (相当于注解)@EnableJpaRepositories -->
     <jpa:repositories base-package="com.tuling.repositories"
                       entity-manager-factory-ref="entityManagerFactory"
                       transaction-manager-ref="transactionManager"
@@ -33,7 +33,7 @@
     <bean class="com.alibaba.druid.pool.DruidDataSource" name="dataSource">
         <property name="username" value="root"/>
         <property name="password" value="root"/>
-        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost:3306/springdata_jpa?characterEncoding=UTF-8"/>
     </bean>
 
@@ -43,6 +43,6 @@
     </bean>
 
     <!--启动注解方式的声明式事务-->
-    <tx:annotation-driven transaction-manager="transactionManager"></tx:annotation-driven>
+    <tx:-driven transaction-manager="transactionManager"></tx:-driven>
 
 </beans>

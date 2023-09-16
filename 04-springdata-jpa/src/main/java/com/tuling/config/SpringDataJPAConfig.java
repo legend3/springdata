@@ -37,7 +37,7 @@ public class SpringDataJPAConfig {
     <bean class="com.alibaba.druid.pool.DruidDataSource" name="dataSource">
         <property name="username" value="root"/>
         <property name="password" value="root"/>
-        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost:3306/springdata_jpa?characterEncoding=UTF-8"/>
     </bean>
     * */
@@ -47,7 +47,7 @@ public class SpringDataJPAConfig {
         DruidDataSource dataSource = new DruidDataSource();
         dataSource.setUsername("root");
         dataSource.setPassword("root");
-        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/springdata_jpa?characterEncoding=UTF-8");
 
         return  dataSource;
