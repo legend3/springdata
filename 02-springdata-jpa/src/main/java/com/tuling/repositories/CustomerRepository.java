@@ -16,7 +16,7 @@ import java.util.List;
  * @Slogan 致敬大师，致敬未来的你
  */
 //public interface CustomerRepository extends CrudRepository<Customer,Long> {
-public interface CustomerRepository extends PagingAndSortingRepository<Customer,Long> {
+public interface CustomerRepository extends PagingAndSortingRepository<Customer,Long> {//实现分页和排序
 
     // 增删查改
 

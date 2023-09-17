@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54fb7dfb-6fa8-4ddc-a977-b9c5421e16c0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring Data JPA.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-jpa-hibernate/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01-jpa-hibernate/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-jpa-hibernate/src/test/java/com/tuling/test/JpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-jpa-hibernate/src/test/java/com/tuling/test/JpaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/repositories/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/repositories/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/test/java/com/tuling/SpringdataJpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/test/java/com/tuling/SpringdataJpaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-springdata-jpa/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-springdata-jpa/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-springdata-jpa/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04-springdata-jpa/src/main/resources/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +44,11 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/repositories/CustomerRepository.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/02-springdata-jpa/src/test/java/com/tuling/SpringdataJpaTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -91,12 +89,15 @@
     </option>
   </component>
   <component name="ProjectId" id="20jKeB0Ih2dTtfheZ1LN7HzB4AV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -266,7 +267,8 @@
       <workItem from="1637502336124" duration="328000" />
       <workItem from="1694805211793" duration="1459000" />
       <workItem from="1694807496608" duration="2497000" />
-      <workItem from="1694847218314" duration="11764000" />
+      <workItem from="1694847218314" duration="13747000" />
+      <workItem from="1694935274621" duration="4922000" />
     </task>
     <task id="LOCAL-00001" summary="2023./9/16">
       <created>1694808483612</created>
@@ -275,18 +277,27 @@
       <option name="project" value="LOCAL" />
       <updated>1694808483612</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pdf文件">
+      <created>1694886399122</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694886399122</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="2023./9/16" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023./9/16" />
+    <MESSAGE value="pdf文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="pdf文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
