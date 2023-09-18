@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54fb7dfb-6fa8-4ddc-a977-b9c5421e16c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring Data JPA.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43875945-16f3-47cd-b48b-2d8a0cd96366/entities/entities.dat_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/config/SpringDataJPAConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/repositories/CustomerMethodNameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/repositories/CustomerMethodNameRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/repositories/CustomerQueryDSLRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/repositories/CustomerQueryDSLRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/repositories/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/main/java/com/tuling/repositories/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/test/java/com/tuling/JpqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/test/java/com/tuling/JpqlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-springdata-jpa/src/test/java/com/tuling/SpringDataJpaPagingAndSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-springdata-jpa/src/test/java/com/tuling/SpringDataJpaPagingAndSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +116,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15423606" />
     <property name="project.structure.side.proportion" value="0.27921405" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -146,57 +150,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JpaTest.testR">
-    <configuration name="HibernateTest.testD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01-jpa-hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tuling.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tuling.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tuling.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testD" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HibernateTest.testR_HQL" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01-jpa-hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tuling.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tuling.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tuling.test.HibernateTest" />
-      <option name="METHOD_NAME" value="testR_HQL" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JpaTest.testR" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01-jpa-hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tuling.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tuling.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tuling.test.JpaTest" />
-      <option name="METHOD_NAME" value="testR" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OneToOneTest.testC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="03-springdata-jpa" />
+  <component name="RunManager" selected="JUnit.SpringdataJpaTest.testR">
+    <configuration name="JpqlTest.testC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-springdata-jpa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tuling.*" />
@@ -204,8 +160,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.tuling" />
-      <option name="MAIN_CLASS_NAME" value="com.tuling.OneToOneTest" />
+      <option name="MAIN_CLASS_NAME" value="com.tuling.JpqlTest" />
       <option name="METHOD_NAME" value="testC" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpqlTest.testD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-springdata-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tuling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tuling" />
+      <option name="MAIN_CLASS_NAME" value="com.tuling.JpqlTest" />
+      <option name="METHOD_NAME" value="testD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpqlTest.testR_sql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-springdata-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tuling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tuling" />
+      <option name="MAIN_CLASS_NAME" value="com.tuling.JpqlTest" />
+      <option name="METHOD_NAME" value="testR_sql" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MethodNameTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02-springdata-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tuling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tuling" />
+      <option name="MAIN_CLASS_NAME" value="com.tuling.MethodNameTest" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -243,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JpaTest.testR" />
         <item itemvalue="JUnit.SpringdataJpaTest.testR" />
-        <item itemvalue="JUnit.HibernateTest.testR_HQL" />
-        <item itemvalue="JUnit.OneToOneTest.testC" />
-        <item itemvalue="JUnit.HibernateTest.testD" />
+        <item itemvalue="JUnit.MethodNameTest.test01" />
+        <item itemvalue="JUnit.JpqlTest.testR_sql" />
+        <item itemvalue="JUnit.JpqlTest.testC" />
+        <item itemvalue="JUnit.JpqlTest.testD" />
       </list>
     </recent_temporary>
   </component>
@@ -269,6 +273,8 @@
       <workItem from="1694807496608" duration="2497000" />
       <workItem from="1694847218314" duration="13747000" />
       <workItem from="1694935274621" duration="4922000" />
+      <workItem from="1694974918503" duration="348000" />
+      <workItem from="1695055816291" duration="9124000" />
     </task>
     <task id="LOCAL-00001" summary="2023./9/16">
       <created>1694808483612</created>
@@ -284,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694886399122</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pdf文件">
+      <created>1694974973151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694974973151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

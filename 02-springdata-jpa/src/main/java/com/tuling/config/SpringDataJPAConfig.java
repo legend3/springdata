@@ -20,8 +20,10 @@ import javax.sql.DataSource;
  * @Slogan 致敬大师，致敬未来的你
  */
 @Configuration          // 标记当前类为配置类   =xml配文件
-//@EnableJpaRepositories(basePackages="com.tuling.repositories")  // 启动jpa    <jpa:repositories
-/* <tx:-driven transaction-manager="transactionManager"></tx:-driven> */
+@EnableJpaRepositories(basePackages="com.tuling.repositories")  // 启动jpa    <jpa:repositories
+/*
+    <tx:-driven transaction-manager="transactionManager"></tx:-driven>
+*/
 @EnableTransactionManagement    // 开启事务
 public class SpringDataJPAConfig {
 

@@ -7,6 +7,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.ExampleMatcher;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
@@ -30,26 +31,33 @@ public class JpqlTest {
     CustomerRepository repository;
 
     @Test
-    public  void testR(){
-        List<Customer> customer = repository.findCustomerByCustName("李四");
+    public  void testR01(){
+        Customer customer = repository.findCustomerByCustName01("李振国");
         System.out.println(customer);
     }
 
     @Test
+    public  void testR02(){
+        List<Customer> customer = repository.findCustomerByCustName02("张三");
+        System.out.println(customer);
+    }
+
+    @Test
+//    @Transactional//增删改操作时，需要使用事务！
     public  void testU(){
-        int result = repository.updateCustomer("王五", 7L);
+        int result = repository.updateCustomer("李振国", 65L);
         System.out.println(result);
     }
 
     @Test
     public  void testD(){
-        int result = repository.deleteCustomer(10L);
+        int result = repository.deleteCustomer(65L);
         System.out.println(result);
     }
 
     @Test
     public  void testC(){
-        int result = repository.insertCustomerBySelect(7L);
+        int result = repository.insertCustomerBySelect(64L);
         System.out.println(result);
     }
 

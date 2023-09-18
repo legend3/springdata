@@ -20,7 +20,7 @@ import java.util.Optional;
 //@ContextConfiguration("/spring.xml")
 @ContextConfiguration(classes = SpringDataJPAConfig.class)
 @RunWith(SpringJUnit4ClassRunner.class)
-public class SpringdataJpaTest {
+public class SpringdataJpaTest {// 增删查改
 
     // jdk动态代理的实例
     @Autowired

@@ -10,6 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /***
+ * 自定义操作(根据jpa提供的方法)
  * @Author 徐庶   QQ:1092002729
  * @Slogan 致敬大师，致敬未来的你
  */

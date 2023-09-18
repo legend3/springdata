@@ -21,13 +21,15 @@ import java.util.Optional;
 @ContextConfiguration(classes = SpringDataJPAConfig.class)
 @RunWith(SpringJUnit4ClassRunner.class)
 public class SpringDataJpaPagingAndSortTest
-{
+{// 增删查改
+
     // jdk动态代理的实例
     @Autowired
     CustomerRepository repository;
 
+    //分页查询
     @Test
-    public  void testPaging(){
+    public  void testPaging() {
         Page<Customer> all = repository.findAll(PageRequest.of(0, 2));
         System.out.println(all.getTotalPages());
         System.out.println(all.getTotalElements());
@@ -35,28 +37,21 @@ public class SpringDataJpaPagingAndSortTest
 
     }
 
+    //排序
     @Test
     public  void testSort(){
-
         Sort sort = Sort.by("custId").descending();
-
         Iterable<Customer> all = repository.findAll(sort);
-
         System.out.println(all);
 
     }
 
-
+    //类型安全的方式(实体类被修改时，能动态同步，利于维护)
     @Test
     public  void testSortTypeSafe(){
-
         Sort.TypedSort<Customer> sortType = Sort.sort(Customer.class);
-
         Sort sort = sortType.by(Customer::getCustId).descending();
-
-
         Iterable<Customer> all = repository.findAll(sort);
-
         System.out.println(all);
 
     }
